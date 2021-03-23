@@ -176,9 +176,9 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
             var together = new Date();
-            together.setFullYear(2020, 11, 15);
-            together.setHours(14);
-            together.setMinutes(52);
+            together.setFullYear(2020, 11, 15); //12月，月份0开始索引
+            together.setHours(0);
+            together.setMinutes(0);
             together.setSeconds(0);
             together.setMilliseconds(0);
 
